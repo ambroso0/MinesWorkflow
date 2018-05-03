@@ -1,0 +1,9 @@
+{
+  "scripts": [
+    {
+      "repoPath": "try.sh",
+      "targetPath": "try.sh",
+      "pathType": "FILE"
+ }
+  ]
+}
