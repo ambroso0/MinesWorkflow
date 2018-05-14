@@ -31,4 +31,4 @@ xpx=`echo ${stat}| awk -F ',' '{print $1}'`
 ypx=`echo ${stat}| awk -F ',' '{print $2}'`
 cellmean=`gdalinfo -stats masked_$Hansen_GFC2015_treecover2000_00N_020E.tif | grep 'STATISTICS_MEAN=' | sed 's/STATISTICS_MEAN=//g' |  sed 's/) (/,/g'`
 
-#echo "$cellmean*$xpx*$ypx" >> rast_sum.txt
+echo "$cellmean*$xpx*$ypx" >> rast_sum.txt
