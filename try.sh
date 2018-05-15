@@ -1,6 +1,6 @@
 #!/bin/bash 
 tar -zxvf concessions.tar.gz
-#vect="concessions"
+vect="concessions"
 #rast="Hansen_GFC2015_treecover2000_00N_020E"
 
 # Get extent
