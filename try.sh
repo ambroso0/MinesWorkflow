@@ -1,7 +1,7 @@
 #!/bin/bash 
 tar -zxvf concessions.tar.gz
-vect="concessions"
-rast="Hansen_GFC2015_treecover2000_00N_020E"
+#vect="concessions"
+#rast="Hansen_GFC2015_treecover2000_00N_020E"
 
 # Get extent
 meta=`gdalinfo $Hansen_GFC2015_treecover2000_00N_020E.tif | grep 'Lower Left' | sed 's/Lower Left  (//g' |  sed 's/) (/,/g'`
