@@ -11,7 +11,7 @@
       "-c"
  ],
     "command": [
-      "sh try.sh"
+      "sh ciclofor_bc.sh"
  ]
   }
 }
